@@ -44,17 +44,14 @@ h1 {
     margin: 10px;
 }
 
-#subheader {
-    font-size: 40px;
-    font-family: "Yanone Kaffeesatz", sans-serif;
-    margin: 10px;
-}
+
 
 #appleLogoLeft {
     height: 150px;
     position: fixed;
     left: 200px;
     top: 0px;
+    z-index: -1;
 }
 
 #appleLogoRight {
@@ -62,4 +59,11 @@ h1 {
     position: fixed;
     right: 200px;
     top: 0px;   
+    z-index: -1;
+}
+
+#subheader {
+    font-size: 40px;
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    margin: 10px;
 }
