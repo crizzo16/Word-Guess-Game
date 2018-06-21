@@ -1,5 +1,5 @@
 body {
-    background: black;
+    background:black;
     color: white;
     font-variant: small-caps;
     font-family: "Economica", sans-serif;
@@ -48,4 +48,18 @@ h1 {
     font-size: 40px;
     font-family: "Yanone Kaffeesatz", sans-serif;
     margin: 10px;
+}
+
+#appleLogoLeft {
+    height: 150px;
+    position: fixed;
+    left: 200px;
+    top: 0px;
+}
+
+#appleLogoRight {
+    height: 150px;
+    position: fixed;
+    right: 200px;
+    top: 0px;   
 }
