@@ -7,6 +7,22 @@ body {
     font-size: 23px;
 }
 
+#appleLogoLeft {
+    height: 150px;
+    position: fixed;
+    left: 200px;
+    top: 0px;
+    z-index: -1;
+}
+
+#appleLogoRight {
+    height: 150px;
+    position: fixed;
+    right: 200px;
+    top: 0px;   
+    z-index: -1;
+}
+
 .boxes {
     margin: 0 auto 0 auto;
     width: 1000px;
@@ -21,12 +37,12 @@ body {
     background: #444444;
 }
 
-#left-box {
-    width: 270px;
-}
-
 #right-box {
     width: 590px;
+}
+
+#left-box {
+    width: 270px;
 }
 
 h1 {
@@ -42,24 +58,6 @@ h1 {
     font-size: 90px;
     font-family: "Yanone Kaffeesatz", sans-serif;
     margin: 10px;
-}
-
-
-
-#appleLogoLeft {
-    height: 150px;
-    position: fixed;
-    left: 200px;
-    top: 0px;
-    z-index: -1;
-}
-
-#appleLogoRight {
-    height: 150px;
-    position: fixed;
-    right: 200px;
-    top: 0px;   
-    z-index: -1;
 }
 
 #subheader {
